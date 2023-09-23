@@ -43,3 +43,4 @@ function multiCalculation(ticket) {
 const ticket = 203;
 const total = multiCalculation(ticket);
 console.log(total);
+
