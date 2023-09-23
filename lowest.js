@@ -9,11 +9,13 @@ const product = [
 
 function lowestPrice(product) {
     let lowest = product[0];
+    console.log('lowest', lowest);
 
     for (let i = 0; i < product.length; i++) {
-        const element = product[i]
-        if (lowest.price > element.price) {
-            lowest = element.price
+        const phone = product[i]
+
+        if (phone.price < lowest.price) {
+            lowest = phone
         }
 
     }
